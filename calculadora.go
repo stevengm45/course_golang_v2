@@ -1,4 +1,4 @@
-package main
+package course_golang_v2
 
 import (
 	"bufio"

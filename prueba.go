@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	// numeros := []int{1, 2, 3, 3, 4, 5, 1, 6}
@@ -71,6 +73,7 @@ func main() {
 			palabra = palabra + string(message[j])
 			fmt.Println(palabra)
 		} else {
+
 			palabra = palabra + string(message[j]) + string(n)
 			fmt.Println(palabra)
 		}
